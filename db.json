@@ -1,0 +1,36 @@
+[
+    {
+    "id":"1",
+    "address":"Calle Gran Vía 12",
+    "city":"madrid",
+    "owner":"carlos"
+    },
+    {
+    "id":"2",
+    "address":"Radnor Place 45",
+    "city":"london",
+    "owner":"such"
+    },{
+    "id":"3",
+    "address":"Piata di la mamma 90",
+    "city":"rome",
+    "owner":"carlos"
+    },
+    {
+    "id":"4",
+    "address":"Zucken Berg Scheblen 34",
+    "city":"berlin",
+    "owner":"such"
+    },{
+    "id":"5",
+    "address":"Avenida de Atocha",
+    "city":"madrid",
+    "owner":"carlos"
+    },
+    {
+    "id":"6",
+    "address":"Plaza de España sn",
+    "city":"madrid",
+    "owner":"such"
+    }
+]
