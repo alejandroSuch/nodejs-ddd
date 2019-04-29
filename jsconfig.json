@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2018",
+    "baseUrl": "./",
     "paths": {
       "@Application/*": ["./src/Application/*"],
       "@Domain/*": ["./src/Domain/*"],
