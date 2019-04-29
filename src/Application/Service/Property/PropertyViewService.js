@@ -1,6 +1,4 @@
-var PropertyDoesNotExist = require('../../../Domain/Model/Property/PropertyDoesNotExist')
-
-module.exports = class PropertyViewService {
+export default class PropertyViewService {
     constructor(
       PropertyRepository
     ) {

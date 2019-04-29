@@ -1,5 +1,6 @@
-var fs = require('fs')
-var _ = require('lodash')
+import fs from 'fs';
+import _ from 'lodash';
+
 var properties = []
 
 fs.readFile('db.json', {encoding: 'utf8'}, function (err, data) {
@@ -11,7 +12,7 @@ fs.readFile('db.json', {encoding: 'utf8'}, function (err, data) {
 
 })
 
-module.exports = class PropertyRepository {  
+export default class PropertyRepository {
     ofId(id) {
       var object = null;
 

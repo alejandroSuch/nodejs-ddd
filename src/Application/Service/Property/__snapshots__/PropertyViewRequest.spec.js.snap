@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyViewRequestBuilder build should fail when building with a property id that is not a number 1`] = `"propertyId must be a number"`;
+
+exports[`PropertyViewRequestBuilder build should fail when building with an owner id that is an empty string 1`] = `"ownerId must be a non-blank string"`;
+
+exports[`PropertyViewRequestBuilder build should fail when building with an owner id that is not a string 1`] = `"invalid type"`;
+
+exports[`PropertyViewRequestBuilder build should fail when building with no data 1`] = `"ownerId must be a non-blank string"`;
+
+exports[`PropertyViewRequestBuilder build should fail when building with no ownerId 1`] = `"ownerId must be a non-blank string"`;
+
+exports[`PropertyViewRequestBuilder build should fail when building with no propertyId 1`] = `"propertyId must be a number"`;

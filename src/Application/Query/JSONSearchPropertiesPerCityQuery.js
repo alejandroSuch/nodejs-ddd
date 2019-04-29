@@ -1,5 +1,6 @@
-var fs = require('fs')
-var _ = require('lodash')
+import fs from 'fs';
+import _ 'lodash';
+
 var properties = []
 
 fs.readFile('db.json', {encoding: 'utf8'}, function (err, data) {
@@ -12,7 +13,7 @@ fs.readFile('db.json', {encoding: 'utf8'}, function (err, data) {
 
 })
 
-module.exports = class JSONSearchPropertiesPerCityQuery {  
+export default class JSONSearchPropertiesPerCityQuery {
     constructor(city) {
         var propertiesInCity = []
 

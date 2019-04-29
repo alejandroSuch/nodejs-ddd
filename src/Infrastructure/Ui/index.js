@@ -1,9 +1,10 @@
-var PropertyViewRequest = require('../../Application/Service/Property/PropertyViewRequest');
-var PropertyViewService = require('../../Application/Service/Property/PropertyViewService');
-var PropertyRepository = require('../Domain/Model/PropertyRepository');
-var JSONSearchPropertiesPerCityQuery = require('../../Application/Query/JSONSearchPropertiesPerCityQuery');
+import PropertyViewRequest from '../../Application/Service/Property/PropertyViewRequest';
+import PropertyViewService from '../../Application/Service/Property/PropertyViewService';
+import PropertyRepository from '../Domain/Model/PropertyRepository';
+import JSONSearchPropertiesPerCityQuery from '../../Application/Query/JSONSearchPropertiesPerCityQuery';
 
-var express = require('express')
+import express from 'express';
+
 var app = express()
 
 var jwt = 'carlos'
