@@ -1,5 +1,5 @@
-import { IsWhitespaceSpecification } from './IsWhitespaceSpecification';
-import { Specification } from './Specification';
+import { IsWhitespaceSpecification } from '@Application/Specification/IsWhitespaceSpecification';
+import { Specification } from '@Application/Specification/Specification';
 
 export class IsBlankStringSpecification extends Specification {
   isSatisfiedBy(value) {

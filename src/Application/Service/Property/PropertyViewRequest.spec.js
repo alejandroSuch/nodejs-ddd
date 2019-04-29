@@ -1,4 +1,4 @@
-import { builder } from './PropertyViewRequest';
+import { builder } from '@Application/Service/Property/PropertyViewRequest';
 
 const OWNER_ID = 'e2594a46-8391-4394-8c97-05a1c72845bc';
 const PROPERTY_ID = 33;

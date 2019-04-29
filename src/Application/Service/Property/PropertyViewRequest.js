@@ -1,5 +1,5 @@
-import { IsBlankStringSpecification } from '../../Specification/IsBlankStringSpecification';
-import { IsNumberSpecification } from '../../Specification/IsNumberSpecification';
+import { IsBlankStringSpecification } from '@Application/Specification/IsBlankStringSpecification';
+import { IsNumberSpecification } from '@Application/Specification/IsNumberSpecification';
 
 class PropertyViewRequestBuilder {
   constructor() {

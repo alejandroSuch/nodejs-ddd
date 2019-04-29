@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "paths": {
+      "@Application/*": ["./src/Application/*"],
+      "@Domain/*": ["./src/Domain/*"],
+      "@Infrastructure/*": ["./src/Infrastructure/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

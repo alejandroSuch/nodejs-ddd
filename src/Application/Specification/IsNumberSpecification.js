@@ -1,4 +1,4 @@
-import { Specification } from './Specification';
+import { Specification } from '@Application/Specification/Specification';
 
 export class IsNumberSpecification extends Specification {
   isSatisfiedBy(value) {

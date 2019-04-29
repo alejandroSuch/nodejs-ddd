@@ -1,4 +1,4 @@
-import { Specification } from './Specification';
+import { Specification } from '@Application/Specification/Specification';
 
 // https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html#isWhitespace(char)
 
